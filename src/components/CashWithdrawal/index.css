@@ -1,0 +1,114 @@
+/* Write your CSS here */
+.app-container {
+  background-color: white;
+  height: 100vh;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.card {
+  background-color: #150b3e;
+  height: 600px;
+  width: 600px;
+  border-radius: 8px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+.s-logo {
+  background-color: #c7d2fe;
+  border-radius: 50px;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.s-letter {
+  color: #7c3aed;
+  font-size: 30px;
+  font-weight: 300;
+  font-family: 'Roboto';
+}
+.s-card {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+}
+.s-heading {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 30px;
+  margin-left: 20px;
+  font-weight: 300;
+}
+.balance-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.balance {
+  color: #d4d2db;
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: 300;
+}
+.balance-p {
+  color: white;
+  font-size: 30px;
+  font-family: 'Roboto';
+}
+.p {
+  color: #d4d2db;
+  font-size: 16px;
+  font-weight: 200;
+  text-align: right;
+}
+.with-draw {
+  text-align: left;
+  color: white;
+  font-size: 30px;
+  font-family: 'Roboto';
+}
+
+.choose {
+  text-align: left;
+  color: #c4c4c4;
+  font-size: 30px;
+  font-weight: 300;
+  font-family: 'Roboto';
+}
+.b-card {
+  cursor: pointer;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.b-card1 {
+  display: flex;
+  flex-direction: row;
+  margin: 3px;
+}
+.b-card2 {
+  display: flex;
+  flex-direction: row;
+}
+.button {
+  height: 30px;
+  width: 120px;
+  background-color: #382f5a;
+  border-style: solid;
+  color: white;
+  margin: 5px;
+  border-color: #c4c4c4;
+  cursor: pointer;
+}
